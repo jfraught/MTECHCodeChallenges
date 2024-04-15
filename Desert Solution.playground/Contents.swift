@@ -26,6 +26,7 @@ func isPrime(_ num: Int) -> Bool {
     }
     return true
 }
+
 func wilsonPrimes(_ num: Int) -> Bool {
     guard num > 1 else { return false }
 
